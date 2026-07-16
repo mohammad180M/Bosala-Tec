@@ -1,0 +1,6 @@
+# Retire legacy Bosala Palestine directory URLs (301 → current homepage)
+/whatsapp/           /           301
+/privacy-policy/     /           301
+/category/*          /           301
+/تصنيفات/*           /           301
+/تصنيف/*             /           301

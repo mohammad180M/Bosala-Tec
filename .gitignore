@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Next.js build / export
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment & secrets
+.env
+.env*.local
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Caches
+.cache/
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Local tooling output
+lighthouse-report.json
+lighthouse-report.*
+
+# Vercel (if ever used alongside Cloudflare)
+.vercel/
+
+# Cursor / agent workspace copies — not site assets
+.cursor/
+assets/
+
+# -----------------------------------------------------------------------------
+# Deploy assets that MUST stay tracked (static export → Cloudflare Pages):
+#   public/brand/bosala-icon.png   ← source icon (edit this file)
+#   public/favicon*.png, favicon.ico, icon-*.png, apple-touch-icon.png
+#   app/favicon.ico, app/icon.png, app/apple-icon.png  ← synced by gen-icons
+# Regenerate: npm run gen-icons  (runs automatically before npm run build)
+# -----------------------------------------------------------------------------
